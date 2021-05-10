@@ -1,0 +1,74 @@
+*{
+margin: 0%;
+padding: 0%;
+}
+
+body{
+    background-color: red;
+}
+
+ul{
+    background-color: gold;
+    list-style: none;
+    overflow: hidden;
+}
+li{
+    float: right;
+    padding-right: 30px;
+}
+
+.logo{
+    float: left;
+}
+
+.logo img{
+    height: 70px;
+    width: 70px;
+}
+
+li a{
+    text-decoration: none;
+    padding: 14px 16px;
+    display: block;
+    font-size: 25px;
+    font-weight: bold;
+    color: red;
+}
+
+.banner{
+    width: 100%;
+    height: 85vh;
+}
+.about{
+    background-color: gold;
+    height:100vh;
+    width: 100%;
+    text-align: center;
+}
+.about h1{
+    margin: 50px;
+    padding: 50px;
+    color: red;
+    font-weight: bold;
+    font-size: 50px;
+}
+.about p{
+    color: green;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 50px;
+    text-align: justify;
+}
+#suits img{
+    height: 400px;
+    
+}
+#suits,
+#contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#contact h4{
+    font-size: 100px;
+}
